@@ -5,6 +5,7 @@ The available evidence shows poor generalization in this experiment. The baselin
 Dataset collection 
 I collected the images using a mobile phone in several everyday settings: on a bus, at home, outdoors, and at university. Some photographs were taken in low light. I varied viewing directions and included bent or differently oriented hand poses. This collection introduces variation in background, illumination, perspective, and hand appearance. Per-image condition annotations were not available for this report, so the individual effects of these conditions cannot be measured here. 
 The dataset is organized into five gesture folders, each containing person_001, person_002, and person_003. Each identifier represents the same participant across classes. Folder names provide the class labels. I collected approximately 100 or more images per class, but the exact usable totals after inspection need to be verified from the notebook. Augmented views do not count as additional self-collected photographs.
+here is the dataset: https://drive.google.com/file/d/1uE9w-5fyN7I6QZ9Jbencoucuxc1DqCWq/view?usp=drive_link 
 Subset	Participant	Purpose
 Training	person_001	Learn model parameters
 Validation	person_002	Select checkpoints and model
