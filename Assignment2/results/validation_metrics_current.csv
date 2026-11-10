@@ -1,0 +1,4 @@
+model,accuracy,precision_macro,recall_macro,f1_macro
+Baseline CNN,0.5976,0.5924,0.5814,0.5567
+MobileNetV2 frozen,0.9878,0.9875,0.9857,0.9861
+MobileNetV2 fine-tuned,1.0000,1.0000,1.0000,1.0000
