@@ -1,0 +1,5 @@
+model,accuracy,precision_macro,recall_macro,f1_macro,avg_latency_ms
+Baseline CNN,0.3069,0.2466,0.2966,0.2522,160.25
+MobileNetV2 frozen,0.5743,0.5506,0.5182,0.4889,177.49
+MobileNetV2 fine-tuned,0.5941,0.5921,0.5501,0.5118,181.21
+Off-the-shelf MediaPipe gesture head,0.0198,0.2000,0.0154,0.0286,89.49
