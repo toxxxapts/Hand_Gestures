@@ -1,0 +1,4 @@
+setting,accuracy,f1_macro
+Frozen backbone,0.5743,0.4889
+Fine-tuned final 40 layers,0.5941,0.5118
+Difference,0.0198,0.0229
