@@ -48,3 +48,14 @@ The implemented workflow covers dataset preparation, augmentation, a baseline CN
 References
 TensorFlow. Transfer learning and fine-tuning. https://www.tensorflow.org/tutorials/images/transfer_learning 
 Scikit-learn. classification_report. https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html
+
+
+---
+
+## Assignment 2 — GestureVision
+
+The project was extended into an explainable web demo with MobileNetV2 fine-tuning, MediaPipe Hand Landmarker, a custom landmark SVM, optional score-level fusion, Grad-CAM, latency measurement and robustness stress tests.
+
+➡️ [Open the Assignment 2 project](Assignment2/README.md)
+
+Current best held-out participant result: **59.41% accuracy / 0.5118 macro-F1** with fine-tuned MobileNetV2. The large validation-to-held-out gap is treated as a generalization/domain-shift finding rather than hidden.
