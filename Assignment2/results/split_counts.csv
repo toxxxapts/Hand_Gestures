@@ -1,0 +1,6 @@
+class_name,train,validation,test
+fist,76,19,5
+open_palm,60,15,26
+peace,54,14,35
+point_up,76,19,9
+thumbs_up,61,15,26
